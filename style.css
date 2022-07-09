@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin-top: 20vh;
+    min-height: 30vh;
+    min-width: 30vw;
+    background-color: rgb(0, 0, 0);
+    
+}
+.buttons{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.num{
+    color: white;
+
+}
+.btn{
+    border-radius: 0;
+    padding: 0.5rem;
+    border: 3px solid black;
+    font-weight: 550;
+    cursor: pointer;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
